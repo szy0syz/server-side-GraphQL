@@ -1,0 +1,23 @@
+{
+  "name": "server-side-graphql",
+  "version": "1.0.0",
+  "description": "frontend masters 《Server-Side GraphQL in Node.js》",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szy0syz/server-side-GraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szy0syz/server-side-GraphQL/issues"
+  },
+  "homepage": "https://github.com/szy0syz/server-side-GraphQL#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql-tag": "^2.10.1"
+  }
+}
