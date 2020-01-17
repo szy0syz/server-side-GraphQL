@@ -1,6 +1,6 @@
 # Server-Side-GraphQL
 
-frontend masters 《Server-Side GraphQL in Node.js》
+> 补点基础了，要不然就只会用而已。
 
 ## Introduction
 
