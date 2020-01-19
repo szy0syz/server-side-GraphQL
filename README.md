@@ -80,3 +80,39 @@ Functions that are responsible for returning values for fields that exist on Typ
 ### Schema + Resolvers => Server
 
 To create a server, at minimum, we need a Query Type with a field, and a Resolver for that field.
+
+## Arguments & Input Types
+
+### Arguments
+
+- Allows clients to pass variables along with Queries that can be used in your Resolvers to get data
+- Must be defined in your Schema
+  - 务必先定义在 Schmea
+- Can be added to any feild
+  - 任何 feild 都可以增加
+- Either have to be Scalars or Input Types
+  - 仅支持传入 Scalars 和 输入类型 两者之一
+
+### Input Type
+
+- Just like Types, but used for Arguments
+- All fields
+
+### What are Mutations
+
+A Type on a Schema that defines operations clients can perform to mutate data (create, update, delete).
+
+> Schema 中的一个 type，定义了客户端改变数据的操作方式。
+
+### Creating Mutations
+
+- Define Mutation Type on Schema using SDL
+- Add fields for Mutation type
+- Add arguments for Mutation fields
+- Create Resolvers for Mutation fields
+
+### Return values for Mutation fields
+
+- Dependent on your clients and use case
+- if useing a client side GraphQL cache, you should return the exact values Queries return
+  - 如果启用了客户端缓存，应该返回精确的查询值
