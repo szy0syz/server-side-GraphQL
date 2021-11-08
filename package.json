@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/szy0syz/server-side-GraphQL#readme",
   "dependencies": {
-    "apollo-server": "^2.14.2",
+    "apollo-server": "^2.25.3",
     "graphql-tag": "^2.10.1"
   }
 }
